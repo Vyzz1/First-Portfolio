@@ -99,7 +99,7 @@ export const projects = [
     title: "GPA Calculator",
     des: " NextJs web app with Darkmode and internationalization",
     img: "/ss.png",
-    iconLists: ["/next.svg", "/tail.svg", "/shad.svg", "/react.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/shad.svg", "/redux.svg"],
     link: "https://tinyurl.com/78a27x7d",
   },
 ];
