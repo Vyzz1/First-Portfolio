@@ -75,13 +75,7 @@ export const projects = [
     title: "IT Recruitment App",
     des: "The IT Recruitment App is a web application built using ReactJS, React Router DOM, React Redux, Firebase Realtime Database, and Ant Design.",
     img: "/s2.png",
-    iconLists: [
-      "/re.svg",
-      "/ant.svg",
-      "/firebase.svg",
-      "/redux.svg",
-      "/tail.svg",
-    ],
+    iconLists: ["/re.svg", "/ant.svg", "/firebase.svg", "/tail.svg"],
     link: "https://tinyurl.com/ITRecruit",
   },
   {
@@ -97,16 +91,16 @@ export const projects = [
     title: "Numerology",
     des: "A numerology calculator website with smooth animations",
     img: "/num.png",
-    iconLists: ["/re.svg", "/ant.svg", "/js.svg", , "/redux.svg"],
+    iconLists: ["/re.svg", "/ant.svg", "/js.svg", "/redux.svg"],
     link: "https://tinyurl.com/numerologyVy",
   },
   {
     id: 4,
-    title: "Promptopia",
-    des: "First NextJs web app with Next-Auth, Google Authenticator and CRUD API .",
-    img: "/prompt.png",
-    iconLists: ["/next.svg", "/tail.svg", "/js.svg", "/react.svg"],
-    link: "https://tinyurl.com/sharePrompt",
+    title: "GPA Calculator",
+    des: " NextJs web app with Darkmode and internationalization",
+    img: "/ss.png",
+    iconLists: ["/next.svg", "/tail.svg", "/shad.svg", "/react.svg"],
+    link: "https://tinyurl.com/78a27x7d",
   },
 ];
 
