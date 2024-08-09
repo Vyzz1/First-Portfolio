@@ -32,8 +32,7 @@ const BentoGridItem = ({
   const [Copy, setCopy] = useState(false);
 
   const handleCopy = () => {
-    const email = "vykhanghuynh@gmail.com";
-    navigator.clipboard.writeText(email);
+   
     setCopy(true);
   };
 
@@ -41,6 +40,7 @@ const BentoGridItem = ({
     if (Copy) {
       const email = "vykhanghuynh@gmail.com";
       navigator.clipboard.writeText(email);
+      setTimeout(()=>{setCopy(false)},1500);
     }
   }, [Copy]);
   const options = {
