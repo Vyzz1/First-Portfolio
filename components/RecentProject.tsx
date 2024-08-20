@@ -22,14 +22,14 @@ const RecentProject = () => {
             className="lg:min-h-[32.5rem] relative flex items-center justify-center sm:h-[41rem] h-[32rem] sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={project.link} href={project.link}>
-              <div className="relative flex justify-center items-center sm:w-[570px] sm:h-[40vh]  w-[80vw] overflow-hidden h-[30vh] lg:h-[30vh] mb-10">
+              <div className="relative flex justify-center items-center sm:w-[570px] sm:h-[40vh]  w-[80vw] overflow-hidden h-[30vh] lg:h-[50vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bng" />
                 </div>
                 <img
                   src={project.img}
                   alt={project.title}
-                  className="z-10 absolute bottom-0 object-cover w-full h-full object-center rounded-lg"
+                  className="z-10 absolute bottom-0 w-full h-full  object-cover rounded-lg"
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 ">

@@ -88,19 +88,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Numerology",
-    des: "A numerology calculator website with smooth animations",
-    img: "/num.png",
-    iconLists: ["/re.svg", "/ant.svg", "/js.svg", "/redux.svg"],
-    link: "https://tinyurl.com/numerologyVy",
+    title: "Vibra Chat",
+    des: "A real-time chat application built using ReactJS, Firebase Realtime Database, Storage, and Shadcn UI with Dark Mode.",
+    img: "/chat.png",
+    iconLists: ["/re.svg", "/firebase.svg", "/tail.svg"],
+    link: "https://vibra-chat.vercel.app",
   },
   {
     id: 4,
     title: "GPA Calculator",
     des: " NextJs web app with Darkmode and internationalization",
     img: "/ss.png",
-    iconLists: ["/next.svg", "/tail.svg", "/shad.svg", "/redux.svg"],
-    link: "https://tinyurl.com/78a27x7d",
+    iconLists: ["/next.svg", "re.svg", "/tail.svg", "/redux.svg"],
+    link: "https://tinyurl.com/calc-gpa",
   },
 ];
 
