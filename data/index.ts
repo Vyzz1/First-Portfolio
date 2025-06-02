@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "IT Recruitment App",
-    des: "The IT Recruitment App is a web application built using ReactJS, React Router DOM, React Redux, Firebase Realtime Database, and Ant Design.",
-    img: "/s2.png",
-    iconLists: ["/re.svg", "/ant.svg", "/firebase.svg", "/tail.svg"],
-    link: "https://tinyurl.com/ITRecruit",
+    title: "FoodyX - Food Delivery App",
+    des: "A food delivery app built with PERN stack, shadcn UI, and Tailwind CSS. Neon Postgresql with Drizzle ORM.",
+    img: "/Screenshot_2.png",
+    iconLists: ["/re.svg", "/rq.png", "/tail.svg", "postgresql.png"],
+    link: "https://foodyx-kappa.vercel.app",
   },
   {
     id: 2,
-    title: "Ecommerece - Fullstack App",
-    des: "Selling smartphones,tablets, and ipads web applications with Admin Panel",
-    img: "/s1.png",
-    iconLists: ["/php.svg", "/js.svg", "/bs.svg", "/api.svg", "/xampp.svg"],
-    link: "https://ecomtdtu.000webhostapp.com/public/",
+    title: "SaaS Landing Page ",
+    des: "A SaaS landing page built with NextJS, ReactJS, Tailwind CSS, and Framer Motion.",
+    img: "/Screenshot_3.png",
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/framer.png"],
+    link: "https://light-sass-landing-two.vercel.app",
   },
   {
     id: 3,
@@ -178,8 +178,8 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Familiar with Php Web App",
-    desc: "Developed a web app using PHP, Bootstrap, and XAMPP.",
+    title: "Working with Java Spring Boot",
+    desc: "Developed a web application using Java Spring Boot, ReactJS, and TailwindCSS.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
