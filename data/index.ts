@@ -80,11 +80,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "SaaS Landing Page ",
-    des: "A SaaS landing page built with NextJS, ReactJS, Tailwind CSS, and Framer Motion.",
-    img: "/Screenshot_3.png",
-    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/framer.png"],
-    link: "https://light-sass-landing-two.vercel.app",
+    title: "Code Editor SaaS Landing Page",
+    des: "A SaaS landing page for a code editor built with Next.js, Convex for realtime, and Lemon Squeezy.",
+    img: "/Screenshot_5.png",
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/convex.png"],
+    link: "https://code-editor-saas.vercel.app",
   },
   {
     id: 3,
